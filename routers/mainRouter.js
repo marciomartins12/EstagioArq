@@ -4,7 +4,7 @@ const Router = express.Router();
 
 
 Router.get("/", (req, res)=>{
-    res.send( "<h1>Home page </h1>")
+    res.render("home")
 })
 
 
