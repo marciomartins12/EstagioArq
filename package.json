@@ -1,0 +1,19 @@
+{
+  "name": "planetaanimal",
+  "version": "1.0.0",
+  "description": "Site de vendas de produtros de um petshop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciomartins12/planetaAnimal.git"
+  },
+  "author": "@marciomartins12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marciomartins12/planetaAnimal/issues"
+  },
+  "homepage": "https://github.com/marciomartins12/planetaAnimal#readme"
+}
