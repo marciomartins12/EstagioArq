@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.menuNavegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 50px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.menuNavegacao h2 {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: rgb(87, 87, 253);
+}
+
+.menuNavegacao a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Mono", serif;
+}
+
+.menuNavegacao a:hover {
+    color: rgb(87, 87, 253);
+}
+
+.menuNavegacao form {
+    border: 1px solid #BBB;
+    display: flex;
+    align-items: center;
+    padding: .2em;
+    border-radius: .6em;
+}
+.menuNavegacao form button{
+    background-color: white;
+}
+.menuNavegacao form button i{
+   font-size: 1.5em;
+}
+.menuNavegacao form input,
+.menuNavegacao form button {
+    border: none;
+}
