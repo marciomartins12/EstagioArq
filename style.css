@@ -330,10 +330,9 @@ main {
 
 /* Container Geral */
 .container {
-    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 0;
+   
 }
 
 /* Carrossel Modernizado */
@@ -403,20 +402,31 @@ main {
 
 /* Seção Sobre */
 .sobre-section {
-    padding: 6rem 0;
+    padding:4em 0;
     border: var(--borda);
-    border-radius: 15px;
-    margin: 2rem 0;
-
+    max-height: 90vh;
+    margin: .4em 0;
 }
 
 .sobre-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 1em;
     align-items: center;
     align-items: center;
     padding: 20px;
+}
+
+.sobre-texto {
+    display: flex;
+    height: 400px;
+    line-height: 1.8em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sobre-texto div h2{
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .sobre-imagem img {
@@ -424,88 +434,10 @@ main {
     height: 500px;
     object-fit: cover;
     border-radius: 20px;
-    box-shadow: 15px 15px 0 var(--vermelho-destaque);
+    box-shadow: 15px 15px 0 #6b1513;
 }
 
-/* Seção Serviços */
-.servicos-section {
-    padding: 6rem 0;
-    background: var(--cinza-claro);
-    border: var(--borda);
-    border-radius: 15px;
-    margin: 2rem 0;
-    padding: 20px;
-    background: var(--branco);
-    box-shadow: var(--sombra);
-}
 
-.servicos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 3rem;
-    margin-top: 3rem;
-}
-
-.servico-card {
-    background: var(--branco);
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: var(--sombra);
-    transition: var(--transicao);
-    position: relative;
-    padding-bottom: 70px;
-    border: var(--borda);
-}
-
-.servico-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-}
-
-.servico-imagem {
-    height: 250px;
-    overflow: hidden;
-}
-
-.servico-imagem img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.servico-card:hover .servico-imagem img {
-    transform: scale(1.05);
-}
-
-.servico-content {
-    padding: 15px;
-    text-align: center;
-}
-
-.servico-content h3 {
-    color: var(--azul-principal);
-    margin-bottom: 1rem;
-}
-
-.servico-detalhes {
-    list-style: none;
-    margin: 1rem 0;
-}
-
-.servico-detalhes li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 8px;
-    text-align: left;
-}
-
-.btn-container {
-    margin-top: 1.5rem;
-    text-align: center;
-}
 
 /* Botões */
 .btn-primario,
@@ -567,65 +499,6 @@ main {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Seção Horários */
-.horarios-section {
-    padding: 6rem 0;
-    background: var(--branco);
-    border: var(--borda);
-    border-radius: 15px;
-    margin: 2rem 0;
-    padding: 20px;
-    background: var(--branco);
-    box-shadow: var(--sombra);
-}
-
-.horarios-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-}
-
-.horarios-imagem img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 15px 15px 0 var(--vermelho-destaque);
-}
-
-.horarios-tabela {
-    background: var(--branco);
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: var(--sombra);
-}
-
-.horarios-tabela table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.horarios-tabela th,
-.horarios-tabela td {
-    padding: 1rem;
-    text-align: left;
-    border-bottom: 1px solid #eee;
-}
-
-.horarios-tabela th {
-    background: var(--azul-principal);
-    color: var(--branco);
-    font-weight: 600;
-}
-
-.horarios-observacao {
-    margin-top: 1.5rem;
-    padding: 1rem;
-    background: #fff3f3;
-    border-radius: 8px;
-    color: var(--vermelho-destaque);
-}
 
 /* Seção Contato */
 .contato-section {
