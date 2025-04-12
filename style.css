@@ -16,6 +16,18 @@
     --clr-primary-900: hsl(218, 33%, 9%);
 }
 
+
+/* =================== BOTÃO BASE =================== */
+.btn {
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: var(--transicao);
+    text-decoration: none;
+    display: inline-block;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -395,11 +407,6 @@ main {
 }
 
 
-
-
-
-
-
 /* Seção Sobre */
 .sobre-section {
     padding:4em 0;
@@ -617,7 +624,7 @@ main {
 
 /* Seção Parceiros */
 .parceiros-section {
-    padding: 4rem 0;
+    
     background: var(--branco);
     border: var(--borda);
     border-radius: 15px;
@@ -721,4 +728,19 @@ main {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     font-size: 0.9rem;
+}
+/* =================== RESPONSIVIDADE EXTRA =================== */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .sobre-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .contato-grid {
+        grid-template-columns: 1fr;
+    }
 }
