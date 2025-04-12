@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doar Agora | Pouso Obras Sociais</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .form-group select {
+            padding: 1rem;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header scrolled">
+        <nav class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="imagens/pouso.jpg" alt="Pouso Obras Sociais" class="logo">
+            </a>
+            <div class="nav-content">
+                <ul class="nav-list">
+                    <li><a href="index.html#inicio">Início</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="index.html#servicos">Serviços</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastre-se</a></li>
+                </ul>
+                <a href="doar.html" class="cta-doacao">DOAR AGORA</a>
+            </div>
+        </nav>
+    </header>
+
+    <main style="margin-top: 100px;">
+        <section class="container">
+            <h1 style="text-align: center; color: var(--azul-principal); margin-bottom: 2rem;">Faça uma Doação</h1>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem;">
+                Sua generosidade transforma vidas. Escolha a forma de doar e contribua com nossa missão.
+            </p>
+
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-imagem">
+                        <img src="https://images.unsplash.com/photo-1593113630400-ea4288922497" alt="Pix">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Doação via PIX</h3>
+                        <p>Chave PIX: <strong>doacoes@pouso.org.br</strong></p>
+                        <p>Razão Social: Pouso Obras Sociais</p>
+                    </div>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-imagem">
+                        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367f" alt="Transferência">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Cartão de Crédito</h3>
+                        <p>Você será redirecionado para uma página segura para concluir a doação.</p>
+                        <a href="#" class="btn-terciario">Doar com Cartão</a>
+                    </div>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-imagem">
+                        <img src="https://images.unsplash.com/photo-1604537529428-15f7b1f9b55c" alt="Outros">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Outras Formas</h3>
+                        <p>Você pode contribuir com dinheiro em espécie, alimentos ou outros itens.</p>
+                        <a href="#form-outros" class="btn-terciario">Quero ajudar de outra forma</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="form-outros" class="contato-section">
+            <div class="container">
+                <h2 class="section-title">Outras Formas de Doar</h2>
+                <form class="contato-form">
+                    <div class="form-group">
+                        <input type="text" name="nome" placeholder="Nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="E-mail válido" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="tipo">
+                            <option value="" disabled selected>Escolha o tipo de doação</option>
+                            <option value="dinheiro">Dinheiro em espécie</option>
+                            <option value="alimentos">Alimentos perecíveis</option>
+
+                            <option value="outros">Outros itens</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensagem" placeholder="Mensagem ou informações adicionais" rows="6"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">Enviar Interesse</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p style="text-align: center;">© 2025 Pouso: Obras Sociais. Obrigado por sua contribuição!</p>
+        </div>
+    </footer>
+</body>
+
+</html>
