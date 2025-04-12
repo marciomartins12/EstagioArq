@@ -407,9 +407,7 @@ main {
     border: var(--borda);
     border-radius: 15px;
     margin: 2rem 0;
-    padding: 20px;
-    background: var(--branco);
-    box-shadow: var(--sombra);
+
 }
 
 .sobre-content {
