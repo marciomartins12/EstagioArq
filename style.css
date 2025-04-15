@@ -62,13 +62,13 @@ main {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background: transparent;
+    background-color: transparent;
     transition: var(--transicao);
     padding: .2em 0;
 }
 
 .header.scrolled {
-    background: var(--branco);
+    background-color: var(--branco);
     box-shadow: var(--sombra);
 
 }
@@ -130,7 +130,7 @@ main {
     left: 0;
     width: 0;
     height: 2px;
-    background: #2793ff;
+    background-color: #2793ff;
     transition: var(--transicao);
 }
 
@@ -151,7 +151,7 @@ main {
 }
 
 .cta-doacao:hover {
-    background: #043c68;
+    background-color: #043c68;
     color: var(--branco);
 
 }
@@ -159,7 +159,7 @@ main {
 /* Menu Mobile */
 .menu-mobile {
     display: none;
-    background: none;
+    background-color: none;
     border: none;
     cursor: pointer;
     padding: 0.5rem;
@@ -170,7 +170,7 @@ main {
     display: block;
     width: 25px;
     height: 2px;
-    background: var(--branco);
+    background-color: var(--branco);
     position: relative;
     transition: var(--transicao);
 }
@@ -181,7 +181,7 @@ main {
     position: absolute;
     width: 100%;
     height: 2px;
-    background: inherit;
+    background-color: inherit;
     transition: var(--transicao);
 }
 
@@ -204,7 +204,7 @@ main {
         left: -100%;
         width: 100%;
         height: calc(100vh - 80px);
-        background: var(--branco);
+        background-color: var(--branco);
         flex-direction: column;
         padding: 2rem;
         transition: var(--transicao);
@@ -251,7 +251,7 @@ main {
 }
 
 .hero-carousel .splide__arrow {
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: var(--branco);
     border: none;
     border-radius: 50%;
@@ -265,11 +265,11 @@ main {
 }
 
 .hero-carousel .splide__arrow:hover {
-    background: var(--vermelho-destaque);
+    background-color: var(--vermelho-destaque);
 }
 
 .hero-carousel .splide__pagination__page.is-active {
-    background: #2793ff;
+    background-color: #2793ff;
 }
 
 .hero-slide {
@@ -285,7 +285,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
     z-index: 1;
 }
 
@@ -318,13 +318,13 @@ main {
     text-decoration: none;
     display: inline-block;
     border: 2px solid var(--branco);
-    background: transparent;
+    background-color: transparent;
     color: var(--branco);
     margin: 0 10px;
 }
 
 .btn-hero:hover {
-    background: var(--vermelho-destaque);
+    background-color: var(--vermelho-destaque);
     border-color: var(--vermelho-destaque);
     transform: translateY(-3px);
 }
@@ -361,7 +361,7 @@ main {
     border-radius: 15px;
     margin: 2rem 0;
     padding: 20px;
-    background: var(--branco);
+    background-color: var(--branco);
     box-shadow: var(--sombra);
     border-radius: 15px;
 }
@@ -463,31 +463,31 @@ main {
 }
 
 .btn-primario {
-    background: transparent;
+    background-color: transparent;
     color: var(--branco);
     border: 2px solid var(--branco);
 }
 
 .btn-primario:hover {
-    background: var(--vermelho-destaque);
+    background-color: var(--vermelho-destaque);
     color: var(--branco);
     transform: translateY(-3px);
 }
 
 .btn-secundario {
-    background: transparent;
+    background-color: transparent;
     color: var(--branco);
     border: 2px solid var(--branco);
 }
 
 .btn-secundario:hover {
-    background: var(--branco);
+    background-color: var(--branco);
     color: #2793ff;
     transform: translateY(-3px);
 }
 
 .btn-terciario {
-    background: var(--branco);
+    background-color: var(--branco);
     color: #2793ff;
     border: 2px solid var(--branco);
     padding: 10px 25px;
@@ -504,7 +504,7 @@ main {
 }
 
 .btn-terciario:hover {
-    background: #2793ff;
+    background-color: #2793ff;
     color: var(--branco);
     transform: translateY(-6px);
     border: 2px solid #2793ff;
@@ -515,12 +515,12 @@ main {
 /* Seção Contato */
 .contato-section {
     padding: 6rem 0;
-    background: var(--cinza-claro);
+    background-color: var(--cinza-claro);
     border: var(--borda);
     border-radius: 15px;
     margin: 2rem 0;
     padding: 20px;
-    background: var(--branco);
+    background-color: var(--branco);
     box-shadow: var(--sombra);
 }
 
@@ -531,7 +531,7 @@ main {
 }
 
 .contato-info {
-    background: var(--branco);
+    background-color: var(--branco);
     padding: 3rem;
     border-radius: 15px;
     border: var(--borda);
@@ -561,7 +561,7 @@ main {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: var(--azul-principal);
+    background-color: var(--azul-principal);
     color: var(--branco);
     display: flex;
     align-items: center;
@@ -571,12 +571,12 @@ main {
 }
 
 .social-btn:hover {
-    background: var(--vermelho-destaque);
+    background-color: var(--vermelho-destaque);
     transform: translateY(-3px);
 }
 
 .contato-form {
-    background: var(--branco);
+    background-color: var(--branco);
     padding: 3rem;
     border-radius: 15px;
     border: var(--borda);
@@ -608,7 +608,7 @@ main {
 }
 
 .btn-enviar {
-    background: var(--vermelho-destaque) !important;
+    background-color: var(--vermelho-destaque) !important;
     border: 2px solid var(--vermelho-destaque) !important;
     color: var(--branco) !important;
     padding: 1rem 2.5rem;
@@ -630,12 +630,12 @@ main {
 /* Seção Parceiros */
 .parceiros-section {
 
-    background: var(--branco);
+    background-color: var(--branco);
     border: var(--borda);
     border-radius: 15px;
     margin: 2rem 0;
     padding: 20px;
-    background: var(--branco);
+    background-color: var(--branco);
     box-shadow: var(--sombra);
 }
 
@@ -649,7 +649,7 @@ main {
 
 .parceiro-item {
     padding: 1rem;
-    background: var(--branco);
+    background-color: var(--branco);
     border-radius: 8px;
     text-align: center;
     transition: var(--transicao);
