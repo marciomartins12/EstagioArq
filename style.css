@@ -73,6 +73,10 @@ main {
 
 }
 
+.scrolled .logo {
+    width: 110px;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -126,7 +130,7 @@ main {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--vermelho-destaque);
+    background: #2793ff;
     transition: var(--transicao);
 }
 
@@ -344,7 +348,7 @@ main {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-   
+
 }
 
 /* Carrossel Modernizado */
@@ -409,7 +413,7 @@ main {
 
 /* Seção Sobre */
 .sobre-section {
-    padding:4em 0;
+    padding: 4em 0;
     border: var(--borda);
     max-height: 90vh;
     margin: .4em 0;
@@ -431,7 +435,8 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
-.sobre-texto div h2{
+
+.sobre-texto div h2 {
     font-weight: bold;
     font-size: 2em;
 }
@@ -624,7 +629,7 @@ main {
 
 /* Seção Parceiros */
 .parceiros-section {
-    
+
     background: var(--branco);
     border: var(--borda);
     border-radius: 15px;
@@ -669,66 +674,50 @@ main {
 
 /* Footer */
 .footer {
-    background: var(--azul-principal);
-    color: var(--branco);
-    padding: 4rem 0 2rem;
-    margin-top: auto;
-    border: var(--borda);
+    background-color: var(--azul-principal);
+    display: flex;
+    color: var(--cinza-claro);
+    justify-content: center;
+    font-size: .7em;
+    padding: 4em 1em 1em 1em;
 }
 
-.footer-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 3rem;
+.footer-container {
+    min-width: 100%;
 }
 
-.footer-col {
-    margin-bottom: 2rem;
+.footer a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.footer h4{
+    font-weight: 800;
 }
 
 .footer-logo {
-    width: 180px;
-    margin-bottom: 1.5rem;
+    width: 120px;
+    border-radius: .48em;
 }
 
-.footer-info {
-    font-size: 0.9rem;
-    opacity: 0.9;
-}
-
-.footer-links {
-    list-style: none;
-}
-
-.footer-links li {
-    margin-bottom: 0.8rem;
-}
-
-.footer-links a {
-    color: var(--branco);
-    text-decoration: none;
-    transition: var(--transicao);
-}
-
-.footer-links a:hover {
-    color: var(--vermelho-destaque);
-    padding-left: 5px;
-}
-
-.footer-contato p {
+.footer-columns {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.8rem;
+    justify-content: center;
+    gap: 5em;
+
 }
 
 .footer-bottom {
-    margin-top: 4rem;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: 0.9rem;
+    border-top: 1px solid #4190a3;
+    margin: 5em auto 1em auto;
+    padding: 1em;
+    width: 50%;
 }
+
+
+
 /* =================== RESPONSIVIDADE EXTRA =================== */
 @media (max-width: 768px) {
     .hero-content h1 {
