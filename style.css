@@ -392,7 +392,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
 .scroller__inner img {
@@ -433,22 +433,19 @@ main {
 .sobre-section {
     padding: 4em 0;
     border: var(--borda);
-    max-height: 90vh;
-    margin: .4em 0;
+    min-height: 9 0vh;
 }
 
 .sobre-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 4em;
     align-items: center;
-    align-items: center;
-    padding: 20px;
 }
 
 .sobre-texto {
     display: flex;
-    height: 400px;
+    height: 280px;
     line-height: 1.8em;
     flex-direction: column;
     justify-content: space-between;
@@ -467,6 +464,26 @@ main {
     box-shadow: 15px 15px 0 #6b1513;
 }
 
+/* information section */
+.information-section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: var(--branco);
+}
+.icon-group{
+    font-size: 10em;
+    color: #e2f4ff;
+}
+.content-information-header { 
+    display: flex;
+    gap: 1em;
+}
+.content-information-header div h3, .content-information-header div h4{
+    font-size: 2em;
+    font-weight: 800;
+    font-style: italic;
+}
 
 
 /* Botões */
