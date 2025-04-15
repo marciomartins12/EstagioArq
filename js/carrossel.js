@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     classes: {
       arrows: 'splide__arrows your-class-arrows',
       arrow: 'splide__arrow your-class-arrow',
-      prev: 'splide__arrow--prev your-class-prev',
-      next: 'splide__arrow--next your-class-next',
       pagination: 'splide__pagination your-class-pagination',
     }
   }).mount();
@@ -26,8 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
     arrows: true, // Ativa as setas de navegação
     pagination: false, // Desabilita a paginação
     classes: {
-      arrows: 'splide__arrows splide__arrows--circulos',
-      arrow: 'splide__arrow splide__arrow--circulos',
       prev: 'splide__arrow--prev splide__arrow--prev-circulos',
       next: 'splide__arrow--next splide__arrow--next-circulos',
     }
