@@ -377,6 +377,22 @@ main {
     gap: .4em;
 }
 
+.scroller__inner a {
+    text-decoration: none;
+    color: var(--branco);
+    position: relative;
+}
+
+.scroller__inner a p {
+    position: absolute;
+    bottom: 10px;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap; 
+}
+
 .scroller__inner img {
     border-radius: .14em;
     width: 300px;
@@ -690,7 +706,8 @@ main {
     color: #F5F5F5;
     text-decoration: none;
 }
-.footer h4{
+
+.footer h4 {
     font-weight: 800;
 }
 
