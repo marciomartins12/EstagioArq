@@ -388,6 +388,7 @@ main {
     bottom: -10px;
     width: 300px;
     background-color: #000B37;
+    padding: .14em 0;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
