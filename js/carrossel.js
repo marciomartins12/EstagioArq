@@ -20,33 +20,16 @@ document.addEventListener('DOMContentLoaded', () => {
   new Splide('#carrosselCirculos', {
     type: 'loop', // Loop para o carrossel
     perPage: 4, // Quantidade de itens visíveis por vez
-    gap: '30px', // Distância entre os círculos
     arrows: true, // Ativa as setas de navegação
     pagination: false, // Desabilita a paginação
     classes: {
-      prev: 'splide__arrow--prev splide__arrow--prev-circulos',
-      next: 'splide__arrow--next splide__arrow--next-circulos',
+      prev: 'splide__arrow--prev icon-passar icon-left',
+      next: 'splide__arrow--next icon-passar icon-right',
     }
   }).mount();
 
-  // Personalizando o posicionamento das setas
-  const prevArrow = document.querySelector('.splide__arrow--prev-circulos');
-  const nextArrow = document.querySelector('.splide__arrow--next-circulos');
 
-  if (prevArrow && nextArrow) {
-    // Posicionando as setas em relação ao carrossel
-    prevArrow.style.position = 'absolute';
-    prevArrow.style.top = '50%';
-    prevArrow.style.left = '-40px';  // Ajuste a distância da seta à esquerda
-    prevArrow.style.transform = 'translateY(-50%)'; // Centraliza a seta verticalmente
-    prevArrow.style.zIndex = '10'; // Garante que a seta fique visível
 
-    nextArrow.style.position = 'absolute';
-    nextArrow.style.top = '50%';
-    nextArrow.style.right = '-40px'; // Ajuste a distância da seta à direita
-    nextArrow.style.transform = 'translateY(-50%)'; // Centraliza a seta verticalmente
-    nextArrow.style.zIndex = '10'; // Garante que a seta fique visível
-  }
   const track = document.getElementById('carouselTrack');
   if (!track) return;
 
