@@ -546,6 +546,38 @@ main {
     font-size: 2em;
 }
 
+/* section horarios */
+.horariosf-section{
+    color: var(--cinza-claro);
+    background-color: black;
+}
+.table table{
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.table table th{
+    font-weight: 800;
+    border: 3px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+.table table tbody{
+    border: 3px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+.right-of-table{
+
+}
+.note{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: .23em;
+    background-color: #FFDADA;
+    color: #F3423F;
+}
+
 
 /* Botões */
 .btn-primario,
