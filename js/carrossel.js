@@ -1,4 +1,4 @@
-// Hero Splide
+
 document.addEventListener('DOMContentLoaded', () => {
   new Splide('.hero-carousel', {
     type: 'fade',
@@ -15,13 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }).mount();
 });
 
-// Carrossel personalizado
+
 document.addEventListener('DOMContentLoaded', () => {
   new Splide('#carrosselCirculos', {
-    type: 'loop', // Loop para o carrossel
-    perPage: 4, // Quantidade de itens visíveis por vez
-    arrows: true, // Ativa as setas de navegação
-    pagination: false, // Desabilita a paginação
+    type: 'loop',
+    perPage: 4, 
+    arrows: true, 
+    pagination: false, 
     classes: {
       prev: 'splide__arrow--prev icon-passar icon-left',
       next: 'splide__arrow--next icon-passar icon-right',
@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
   startAutoScroll();
 });
 
-// Scroller duplicação
 const scrollers = document.querySelectorAll(".scroller");
 if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   scrollers.forEach(scroller => {

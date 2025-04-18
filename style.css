@@ -489,6 +489,10 @@ main {
     height: 80%;
 }
 
+.splide__track {
+    margin-bottom: 5em;
+}
+
 .icon-left {
     top: 55%;
     left: -45px;
@@ -547,37 +551,80 @@ main {
 }
 
 /* section horarios */
-.horariosf-section{
+.horariosf-section {
+    padding: 3em 0 5em;
     color: var(--cinza-claro);
     background-color: black;
 }
-.table table{
-    width: 50%;
+
+.horariosf-section h5 {
+    font-size: 2em;
+    font-weight: 800;
+    color: var(--branco);
+    width: 100%;
+    margin-left: 4.5%;
+    margin-bottom: .50em;
+
+}
+
+.table table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: 1em;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
-.table table th{
+
+.table table th {
+    font-size: 1.34em;
     font-weight: 800;
     border: 3px solid #fff;
-    padding: 10px;
-    text-align: center;
+    padding: .80em;
+    text-align: initial;
 }
-.table table tbody{
+
+.table table tbody {
     border: 3px solid #fff;
-    padding: 10px;
+}
+
+.table-horarios {
     text-align: center;
 }
-.right-of-table{
+
+.table table tbody td {
+    font-weight: 800;
+    padding: .80em;
+    margin-bottom: 5em;
+}
+
+.grid-table-infos {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 55% 45%;
 
 }
-.note{
-    width: 70%;
-    margin: 0 auto;
+
+.right-of-table {
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: 500;
+}
+
+.note {
+    display: inline;
+    padding: .48em;
+    margin-left: 4.5%;
     border-radius: .23em;
     background-color: #FFDADA;
     color: #F3423F;
+font-weight: 800;
 }
 
+.note i {
+    margin-left: .48em;
+}
 
 /* Botões */
 .btn-primario,
