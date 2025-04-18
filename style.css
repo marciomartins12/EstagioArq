@@ -619,7 +619,7 @@ main {
     border-radius: .23em;
     background-color: #FFDADA;
     color: #F3423F;
-font-weight: 800;
+    font-weight: 800;
 }
 
 .note i {
@@ -752,27 +752,33 @@ font-weight: 800;
 
 /* Seção Contato */
 .contato-section {
-    padding: 6rem 0;
-    background-color: var(--cinza-claro);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('/imagens/FundoBkContt.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1em;
     border: var(--borda);
-    border-radius: 15px;
-    margin: 2rem 0;
-    padding: 20px;
-    background-color: var(--branco);
     box-shadow: var(--sombra);
 }
-
+.section-title{
+    color: var(--azul-escuro);
+    font-weight: 800;
+    font-size: 1.8em;
+}
 .contato-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    grid-template-columns: 30% 70%;
+    gap: 1em;
 }
 
 .contato-info {
     background-color: var(--branco);
+    color: var(--azul-principal);
+    font-weight: 800;
     padding: 3rem;
+    border:1px solid #003f6372;
     border-radius: 15px;
-    border: var(--borda);
+    
 }
 
 .info-item {
@@ -817,7 +823,7 @@ font-weight: 800;
     background-color: var(--branco);
     padding: 3rem;
     border-radius: 15px;
-    border: var(--borda);
+    border:1px solid #003f6372;
 }
 
 .form-group {
@@ -828,7 +834,7 @@ font-weight: 800;
 .form-group textarea {
     width: 100%;
     padding: 1rem;
-    border: 1px solid #ddd;
+    border:1px solid #003f6372;
     border-radius: 8px;
     font-size: 1rem;
     transition: border-color 0.3s ease;
@@ -867,14 +873,10 @@ font-weight: 800;
 
 /* Seção Parceiros */
 .parceiros-section {
-
-    background-color: var(--branco);
-    border: var(--borda);
-    border-radius: 15px;
+    background-color: var(--branco);    
     margin: 2rem 0;
     padding: 20px;
     background-color: var(--branco);
-    box-shadow: var(--sombra);
 }
 
 .parceiros-grid {
