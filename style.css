@@ -240,9 +240,10 @@ main {
 
 .hero-carousel .splide__arrows {
     position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    min-width:100vw ;
+    top: 50%;
+    
+    transform: translateX(-50% -50%);
     z-index: 3;
 }
 
@@ -263,9 +264,11 @@ main {
     font-size: 1.5rem;
     transition: var(--transicao);
 }
-
+.hero-carousel .splide__arrow svg{
+    fill: white;
+}
 .hero-carousel .splide__arrow:hover {
-    background-color: var(--vermelho-destaque);
+    background-color: var(--azul-principal);
 }
 
 .hero-carousel .splide__pagination__page.is-active {
@@ -549,6 +552,7 @@ main {
     color: #E4F1FF;
     font-size: 2em;
 }
+
 
 /* section horarios */
 .horariosf-section {

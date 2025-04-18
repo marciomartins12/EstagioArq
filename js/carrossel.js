@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     autoplay: true,
     pauseOnHover: false,
     interval: 5000,
-    arrows: false,
+    arrows: true,
     pagination: true,
     classes: {
       arrows: 'splide__arrows your-class-arrows',
-      arrow: 'splide__arrow your-class-arrow',
+      arrow: 'splide__arrow your-class-arrow icon-hero-left',
       pagination: 'splide__pagination your-class-pagination',
     }
   }).mount();
